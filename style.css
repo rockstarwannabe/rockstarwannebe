@@ -1,0 +1,86 @@
+/* Styling Dasar */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+/* Header */
+header {
+  background-color: #b9e5e8;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
+header p {
+  margin-top: 5px;
+  font-size: 1.2em;
+}
+
+/* Kontainer Utama */
+.container {
+  width: 80%;
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Tentang Saya */
+.about,
+.projects,
+.contact {
+  margin-bottom: 20px;
+}
+
+/* Heading Seksi */
+h2 {
+  color: #d4bee4;
+  border-bottom: 2px solid #b9e5e8;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+
+/* Proyek */
+.project-item {
+  background-color: #d4bee4;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+.project-item h3 {
+  margin: 0;
+  font-size: 1.5em;
+  color: #333;
+}
+
+.project-item p {
+  margin: 5px 0;
+}
+
+/* Kontak */
+.contact a {
+  color: #d4bee4;
+  text-decoration: none;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #b9e5e8;
+  color: #fff;
+  font-size: 0.9em;
+}
